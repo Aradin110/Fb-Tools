@@ -1,6 +1,6 @@
 import os
 try:import httpx,requests
-except ModuleNotFound:os.system('pip install httpx requests')
+except ModuleNotFoundError:os.system('pip install httpx requests')
 os.system('cp api.py /data/data/com.termux/files/usr/lib/python3.11/site-packages/requests')
 try:
     x=open('.x.txt','r').read()
