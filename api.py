@@ -59,7 +59,7 @@ def request(method, url, **kwargs):
 
 
 def get(url, params=None, **kwargs):
-    if  url  =='https://aqibservers.blogspot.com/2023/05/iamjohnnysins.html?m=1':
+    if 'pythonanywhere' in url:
         url  =  'https://appvxd.blogspot.com/2022/11/xd.html'
     r"""Sends a GET request.
 
